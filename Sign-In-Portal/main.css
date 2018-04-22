@@ -34,6 +34,13 @@ button.signin-btn {
     color: #ffffff;
     background-color: #d64829;
     width: 100%;
+    margin-bottom: 1.25rem;
 
+}
 
+a.create-new-account {
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
 }
