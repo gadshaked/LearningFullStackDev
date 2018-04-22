@@ -96,36 +96,92 @@
     <!-- section Two--->
     <div class="sectionDark">
         <div class="row">
-            <div class="col-sm-12 col-md-1 offset-md-2">
+            <div class="col-md-2 d-none d-md-block">
+                <!-- invisible "offset" portion div, disappears entirely with mobile views-->
+            </div>
+            <div class="col-sm-12 col-md-1">
                 <img class="img-fluid" src="assets/prodigy.png">
             </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-9">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 
-        <div class="col-sm-12 col-md-6">
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p></div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-9">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p>
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <img class="img-fluid" src="assets/KFS.png">
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-3"></div>
-            <img class="img-fluid" src="assets/KFS.png">
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="coolStuffWrapper">
+                    <button type="button" class="btn btn-lg coolStuffBtn" data-toggle="modal" data-target="#coolStuffModal">Get Cool Stuff</button>
+                </div>
+            </div>
 
         </div>
-
 
     </div>
-    <div class="col"></div>
 
+
+
+
+    <!-- Modal -->
+    <!--Cool Stuff Modal -->
+    <div class="modal fade" id="coolStuffModal" tabindex="-1" role="dialog" aria-labelledby="CoolStuffLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contentLable">Get Exclusive Content</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <img class="img-fluid" src="assets/KFS_modal.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="modalFormWrapper">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="formName">What's your name?</label>
+                                            <input type="text" class="form-control" id="formName" placeholder="Example input">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="formEmail">Where should we send your cool content?</label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
-
-
-
+    </div>
 
 
 
